@@ -26,7 +26,7 @@
 
 (define (sum_sqare_largest a b c)
   (define sum_squares (+ (square a) (square b) (square c)))
-  (define  (square (min a b c)))
+  (define square_min (square (min a b c)))
   (- sum_squares square_min)
  )
 
